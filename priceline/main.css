@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 1278px;
+    font-family: sans-serif;
+}
+#box1 h3{
+    display: inline;
+    font-size: 12px;
+    }
+#box1 {
+    background-color: rgb(64, 139, 168);
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 15px; 
+    padding-bottom: 40px; 
+    color: white;
+
+}
+#box1con1{
+border-right: 1px solid white; 
+padding-right: 5px; 
+
+}
+.nav {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+
+}
+.navRight {
+    float: right;
+    padding-top: 13px;
+}
+.navRight a {
+    padding-right: 15px;
+    color: blue;
+
+
+}
+
+#logo {
+    color: blue;
+    font-size: 30px;
+    padding-right: 15px;
+    
+}
+#navCon {
+    color: gray;
+    padding-left: 5px;
+}
+a:link {
+    text-decoration: none;
+}
+.mainimg {
+    width: 100%;
+    height: 500px;
+    background: url("pcln-hp-hero-mountain-lounge.jpg");
+    background-position: right;
+}
+.mainimg h2{
+    font-size: 35px;
+   
+}
+.mainimg h3{
+    margin-top: 5px;
+}
+
+.container {
+    width: 800px;
+    height: 350px;
+    background-color: white; 
+    margin: 30px;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+   
+  
+}
+
+.conthed{
+    padding: 10px 10px 0px 10px; 
+}
+.contnav {
+    margin-top: 20px;
+    padding-top: 10px; 
+    border-top: 1px solid rgba(128, 128, 128, 0.384); 
+    
+    padding-bottom: 20px;
+
+}
+.color {
+    background-color: whitesmoke;
+
+}
+.contnav a{
+    padding-left: 5%;
+    padding-right: 5%; 
+    color: rgba(18, 27, 54, 0.795);
+    padding-top: 5px; 
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+.contnav a:hover {
+ color: blue;
+ border-bottom: 3px solid rgb(45, 45, 182);
+}
+.contsearch input{ 
+    width: 260px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px; 
+    padding-left: 10px; 
+    display: inline;
+
+}
+.contsearch button{
+    width: 225px;
+    height: 50px;
+    background-color: rgb(0, 110, 255);
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.contfoo {
+    margin-top: 25px;
+}
+.contfoo p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+
+/*.box2 {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    padding: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+ 
+}
+.box2-1{
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-right: 10px;
+   
+}
+.box2-1:hover{
+    border: 1px solid blue;
+}
+
+.box2-1 img {
+float: left;
+}
+.box2 b{
+    font-size: 20px;
+}
+.box2 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box2 button {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px; 
+}
+.box2-2{
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-right: 10px;
+   
+   
+}
+.box2-2:hover{
+    border: 1px solid blue;
+}
+
+.box2-2 img{
+    width: 200px;
+    height: 200px;
+    float: right;
+
+}*/
+.boxa{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    height: 220px;
+    padding: 10px;
+    margin-bottom: 10px; 
+
+}
+.box2-1 {
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+    width: 60%;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 5px;
+    
+
+}
+.box2-1:hover{
+    border-color: gray; 
+    box-shadow: 0px 0px 12px gray;
+}
+.box2-1 img {
+    float: left;
+    width: 200px;
+    height: 195px;
+    background-position: center;
+    padding-right: 10px; 
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.box2-1 b {
+    color: cadetblue;
+    font-size: 30px;
+}
+
+.box2-1 p{
+    margin-top: 10px;
+}
+.box2-1 button{
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    color: whitesmoke;
+    margin-top: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.box2-2 {
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+    border: 1px solid gray;
+    width: 35%;
+    margin-right: 20px;
+    position: absolute;
+    left: 800px;
+    border-radius: 5px;
+  
+}
+.box2-2:hover{
+    border-color: gray; 
+    box-shadow: 0px 0px 12px gray;
+}
+.box2-2 img {
+    float: right;
+    width: 160px;
+    height: 195px;
+    margin-right: 0.5px;
+    
+    
+}
+.box2-2 b{
+    color: cadetblue;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+.box2-2 p{
+    padding-left:10px; 
+}
+.box3{
+
+    height: 200px;
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+}
+.box3 div{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+}
+
+/*box4*/
+.box4{
+    position: relative;
+    
+}
+.box4 > h4{
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 20px; 
+}
+.btn-right{
+    position: absolute;
+    top: 150px;
+    left: 1230px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 50%;
+    width : 50px;
+    height: 50px; 
+}
+.btn-left{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 50%;
+    width : 50px;
+    height: 50px; 
+}
+
+.citys-img img{
+    width: 350px;
+    height: 300px;
+}
+.first-city {
+    position: relative;
+    padding-left: 75px; 
+    float: left;
+    
+
+}
+.city-img-txt{
+    position: relative;
+    padding: 5px;
+    border: 1px solid gray;
+    
+}
+.city-left{
+    position: absolute;
+    top: 5px;
+    left: 260px;
+
+}
+.sec-city {
+    position: absolute;
+    left: 465px;
+    
+}
+.third-city{
+    position: absolute;
+    left: 855px;
+}
+
+/*box5*/
+
+.box5 img{
+    margin-top: 20px;
+    width: 1280px;
+}

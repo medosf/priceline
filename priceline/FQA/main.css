@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+                                                                /*first nav bar*/
+.mainbox1{
+ padding: 15px;
+ position: relative;
+ text-decoration: none;
+ background-color: whitesmoke;
+ height: 30px;
+ font-size: 15px;
+ 
+}
+.mainbox1 a:link{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.left a:link{
+    color: gray;
+}
+#logo{
+    font-size: 20px;
+    color: blue;
+}
+.left{
+    float: left;
+
+}
+.right{
+    float: right;
+}
+
+
+                                                        /* left box menu*/
+
+.left-menu{
+    width: 400px;
+    height: 350px;
+    float: left;
+    padding: 10px;
+    position: absolute;
+
+}
+
+.left-menu h2 {
+    
+    margin-top: 20px;
+    /*border-bottom: 1px solid blue;*/
+    margin-bottom: 40px; 
+}
+
+.left-menu ul {
+    margin-top: 30px;
+   
+}
+.left-menu li {
+    padding-top: 15px; 
+}
+
+
+                                                             /*box2*/
+
+
+.box2{
+    position: relative;
+    margin-top: 100px;
+}
+.box2-1{
+    position: absolute;
+    left: 420px;
+    background-color: rgb(245, 243, 243);
+    width: 250px;
+    height: 45px;
+    padding: 5px;
+}
+.box2-1 button{
+    width: 60px;
+    height: 35px;
+    background-color: rgb(3, 144, 238);
+    color: whitesmoke; 
+
+
+}
+.box2-2 button{
+    position: absolute;
+    left: 700px;
+    width: 140px;
+     
+    
+}
+
+
+                                                                    /*box4*/
+
+.box4{
+    position: absolute;
+    left: 420px;
+    top: 80px;
+    width: 820px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.box4 div{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 10px;
+
+
+}
+.box4 a:link{
+    text-decoration: none;
+    
+}
+.box4 ul{
+ margin-top: 20px;
+ list-style-type: none;
+
+}
+.box4 li{
+    margin-top:10px;
+}
+                                                                /*box5*/
+.box5{
+    position: absolute;
+    left: 420px;
+    top: 240px;
+}
+.box5 li {
+    list-style-type: none;
+    margin-top: 10px; 
+    
+
+}
+.box5 a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+                                                                    /*footer*/
+
+
+footer{
+    position: absolute;
+    top: 500px;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    padding-top: 20px; 
+    
+}
+footer div{
+    display: inline-block;
+    margin-left: 120px;
+    font-size: 15px;
+
+}
+footer h5{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+footer a{
+    display: block;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px; 
+    
+}
+footer a{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+section {
+    padding: 30px;
+    background-color: rgb(1, 23, 54);
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+section div{
+    margin-top: 20px;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+}
+
